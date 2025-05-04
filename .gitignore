@@ -1,0 +1,89 @@
+# Build directories
+build/
+out/
+debug/
+release/
+cmake-build-*/
+
+# IDE specific files
+.idea/
+.vscode/
+.vs/
+*.swp
+*.swo
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.vcxproj.user
+*.log
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+*.ko
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# CUDA specific
+*.i
+*.ii
+*.gpu
+*.ptx
+*.cubin
+*.fatbin
+*.fatbin.c
+*.module_id
+*.chi
+*.cub
+
+# CMake
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+# OS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+desktop.ini
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Profiling data
+*.nvprof
+*.nvvp
+*.prof
